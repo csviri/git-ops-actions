@@ -6,8 +6,8 @@ It consists of 2 GitHub Actions:
 
 - **Propagate Version Action**: https://github.com/csviri/git-ops-actions-propagate-version  
 
-  Use this action in your source repository, thus in your CI pipeline, to propagate
-  information version of the built artifact to your Ops repository from your source code repository. 
+  Use this action in your source repository, thus in your CI pipeline, to propagate version
+  information  of the built artifact to your Ops repository from your source code repository. 
   See our source code repo sample here:
   https://github.com/csviri/git-ops-actions-sample-ci 
 
