@@ -21,7 +21,7 @@ It consists of 2 GitHub Actions:
   here: https://github.com/csviri/git-ops-actions-sample-ops-repo
   
   
-The 2 samples from above represents a typical sample workflow (in a dummy way):
+The 2 samples from above represents a skeleton of typical workflow:
   1. Artifact is build from source code with a version
   2. The version is propagated to the `dev` environment. Here by adding a version file
      to the ops repository, on dev branch.
