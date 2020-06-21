@@ -16,7 +16,7 @@ It consists of 2 GitHub Actions:
   Use this action to promote deployment between environments in your Ops Repository. For now, we support a model
   where branches in your Ops repository represents your environments. When we want to promote
   a deployment to the next environment (like from dev to prod or pre-prod), the action creates
-  a pull request to the branch which represents the environment. To describe this workflow
+  a pull request between branches representing source and target environment. To describe this workflow
   put a `gitopsactions.yaml` file on the root of your Ops Repository. See the sample Ops repo 
   here: https://github.com/csviri/git-ops-actions-sample-ops-repo
   
