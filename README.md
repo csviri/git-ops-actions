@@ -8,8 +8,7 @@ It consists of 2 GitHub Actions:
 
   Use this action in your source repository, thus in your CI pipeline, to propagate version
   information  of the built artifact to your Ops repository from your source code repository. 
-  See our source code repo sample here:
-  https://github.com/csviri/git-ops-actions-sample-ci 
+  See our [source code repo sample.](https://github.com/csviri/git-ops-actions-sample-ci)
 
 - **Promote Action**: https://github.com/csviri/git-ops-actions-promote
   
@@ -17,8 +16,7 @@ It consists of 2 GitHub Actions:
   where branches in your Ops repository represents your environments. When we want to promote
   a deployment to the next environment (like from dev to prod or pre-prod), the action creates
   a pull request between branches representing source and target environment. To describe this workflow
-  put a `gitopsactions.yaml` file on the root of your Ops Repository. See the sample Ops repo 
-  here: https://github.com/csviri/git-ops-actions-sample-ops-repo
+  put a `gitopsactions.yaml` file on the root of your Ops Repository. See the [sample Ops repo.](https://github.com/csviri/git-ops-actions-sample-ops-repo)
   
   
 The 2 samples from above represents a skeleton of typical workflow:
