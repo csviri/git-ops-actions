@@ -1,7 +1,6 @@
 # git-ops-actions
 
 GitOps Actions is a simple, minimal yet general GitOps toolkit. 
-It helps you to implement git ops for your target system.
 It consists of 2 GitHub Actions:
 
 - **Propagate Version Action**: https://github.com/csviri/git-ops-actions-propagate-version  
