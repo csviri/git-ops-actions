@@ -3,13 +3,13 @@
 GitOpsActions is a simple, minimal yet general GitOps toolkit for GitHub Actions.
 It consists of two GitHub Actions, which helps you to implement a full CI/CD workflow:
 
-- **Propagate Version Action**: https://github.com/csviri/git-ops-actions-propagate-version  
+- **Propagate Version** Action: https://github.com/csviri/git-ops-actions-propagate-version  
 
   Use this action in your source repository, thus in your CI pipeline, to propagate version
   information of the built artifact to your Ops repository from your source code repository. 
   See our [source code repo sample.](https://github.com/csviri/git-ops-actions-sample-ci)
 
-- **Promote Action**: https://github.com/csviri/git-ops-actions-promote
+- **Promote** Action: https://github.com/csviri/git-ops-actions-promote
   
   Use this action to promote deployment between environments in your Ops Repository. For now, we support a model
   where branches in your Ops repository represents your environments. When we want to promote
